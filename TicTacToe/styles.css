@@ -1,0 +1,49 @@
+/* This is a css file */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #272838;
+    color: #eb9486;
+    text-align: center;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    justify-content: center;
+    grid-template-rows: repeat(3,100px);
+    gap: 5px;
+    padding: 10px;
+    
+}
+
+.btn{
+    border-radius: 5%;
+    /* background-color: #cd5334; */
+    background-color: #86bbd8;
+    cursor:auto;
+    font-size: 37px;
+    color: #2f4858;
+}
+
+.choice{
+    background-color: #F2D0A4;
+    height: 40px;
+    width: 80px;
+    border-radius: 10%;
+}
+
+.game-message{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    /* color: #272838; */
+}
+
+/* .hide{
+    display: none;
+}
+
+.show{
+    display: inline;
+} */
